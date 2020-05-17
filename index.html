@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!---Bootstrap--->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Hellenipsum</title>
+    </head>
+    <body>
+        <header>
+            <h1>Hellenipsum</h1>
+        </header>
+        
+        <main>
+        
+            <h3>Ela Vre</h3>
+            
+            <p>Pastitsio or Moussaka?</p>
+            <div id="question1">
+                <input type="radio" id="pastitsio" name="question1" value="pastitsio">
+                <label for="pastitsio" id="pastitsio_label">Pastitsio</label>
+                <br>
+                <input type="radio" id="moussaka" name="question1" value="moussaka">
+                <label for="moussaka">Moussaka</label>
+            </div>
+            
+            <button onclick="printToTextarea()">Ready?</button>
+            
+            <textarea id="output" rows="10" cols="70"></textarea>
+        
+        </main>
+        
+        <footer>
+            <span id="authorName">Stephany Prodromos</span>
+            <span id="copyright">Copyright &copy; 2020</span>
+        </footer>
+        
+        <script src="main.js"></script>
+    </body>
+</html>

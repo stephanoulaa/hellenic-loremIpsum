@@ -15,25 +15,44 @@
         
             <h3>Ela Vre</h3>
             
-            <p>Pastitsio or Moussaka?</p>
+            
             <div id="question1">
-                <input type="radio" id="pastitsio" name="question1" value="pastitsio">
-                <label for="pastitsio" id="pastitsio_label">Pastitsio</label>
+                <p>How many paragraphs?</p>
+                <input type="radio" id="paragraph1" name="question1">1
                 <br>
-                <input type="radio" id="moussaka" name="question1" value="moussaka">
-                <label for="moussaka">Moussaka</label>
+                <input type="radio" id="paragraph2" name="question1">2
+                <br>
+                <input type="radio" id="paragraph3" name="question1">3
             </div>
             
-            <button onclick="printToTextarea()">Ready?</button>
+            
+            <div id="question2">
+                <p>Are you hungry?</p>
+                <input type="checkbox" id="hungry" name="question2">
+                <label>Yes (there is no other choice for this question because Yiayia made you food so YOU. WILL. EAT. IT. RE.)</label>
+            </div>
+            
+            <div id="question3">
+                <p>Add some paragraph tags?</p>
+                <input type="checkbox" id="ptags" name="question3">
+                <label>Sure!</label>
+            </div>
+            
+            
+            
+            <button onclick="printToTextarea()">Print Text!</button>
+<!--            <button onclick="printWithTags()">Print with Paragraph Tags!</button>-->
             
             <textarea id="output" rows="10" cols="70"></textarea>
         
         </main>
         
+<!--
         <footer>
             <span id="authorName">Stephany Prodromos</span>
             <span id="copyright">Copyright &copy; 2020</span>
         </footer>
+-->
         
         <script src="main.js"></script>
     </body>

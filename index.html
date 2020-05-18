@@ -3,57 +3,50 @@
     <head>
         <!---Bootstrap--->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <title>Hellenipsum</title>
     </head>
     <body>
+        
         <header>
-            <h1>Hellenipsum</h1>
+            <h1>Greek Ipsum</h1>
         </header>
         
         <main>
-        
-            <h3>Ela Vre</h3>
-            
             
             <div id="question1">
-                <p>How many paragraphs?</p>
-                <input type="radio" id="paragraph1" name="question1">&nbsp;1
-                <br>
-                <input type="radio" id="paragraph2" name="question1">&nbsp;2
-                <br>
+                How many paragraphs?
+                <input type="radio" id="paragraph1" name="question1">&nbsp;1&nbsp;
+                <input type="radio" id="paragraph2" name="question1">&nbsp;2&nbsp;
                 <input type="radio" id="paragraph3" name="question1">&nbsp;3
             </div>
-            
             <br>
             
             <div id="question2">
-                <p>Are you hungry (for some longer paragraphs)?</p>
-                <input type="checkbox" id="hungry" name="question2">&nbsp;Yes (there is no other option for this question because Yiayia heard you were hungry so YOU. WILL. EAT. IT. RE.)
+                Hungry (for some longer paragraphs)?
+                <input type="checkbox" id="hungry" name="question2">&nbsp;Yes 
+                
+                <p id="yiayia">(there is no other option for this question because Yiayia heard you were hungry so YOU. WILL. EAT. IT. RE.)</p>
             </div>
-            
-            <br>
             
             <div id="question3">
-                <p>Add some paragraph tags?</p>
-                <input type="checkbox" id="ptags" name="question3">&nbsp;Sure!
+                Add some paragraph tags?
+                <input type="checkbox" id="ptags" name="question3">&nbsp;Sure!&nbsp;
                 <input type="checkbox" id="ptagsNo" name="question3">&nbsp;Oxi
             </div>
-            
             <br>
             
-            <button onclick="printToTextarea()">Print Text!</button>
-            
+            <button  type="button" class="btn btn-primary" onclick="printToTextarea()">Print Text!</button>
+            <br>
             <textarea id="output" rows="12" cols="70"></textarea>
+            <br>
         
         </main>
         
-<!--
         <footer>
-            <span id="authorName">Stephany Prodromos</span>
-            <span id="copyright">Copyright &copy; 2020</span>
+            <p id="power">Powered By Greek Coffee <i class="fas fa-coffee"></i></p>
         </footer>
--->
         
         <script src="main.js"></script>
     </body>

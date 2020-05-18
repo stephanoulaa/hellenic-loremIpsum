@@ -31,8 +31,6 @@ var ptagsNo = document.getElementById('ptagsNo');
 // only call this when user clicks "Ready" button
 function printToTextarea() {
     
-    
-    
     if (paragraph1.checked && hungry.checked && ptags.checked) {
         // print 1 paragraph, plus hungry, plus p tags
         textarea.innerHTML += openingTag + joinMyWords + joinHungryWords + closingTag;

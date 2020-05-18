@@ -1,21 +1,49 @@
+html {
+    background-color: lightskyblue;
+}
+
+body {
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid white;
+    background-color: aliceblue;
+
+}
+
 h1 {
-    padding-bottom: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*border: 2px solid pink;*/
+}
+
+main {
+    /*border: 2px solid blue;*/
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#yiayia {
+    font-size: 11px;
+}
+
+button {
+    margin-bottom: 20px;
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: cornflowerblue;
-  color: white;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
 }
 
-#authorName {
-    color: black;
-}
-
-#copyright {
-    color: black;
+#power {
+    padding-top: 10px;
 }
